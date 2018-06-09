@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# Classic Memory Game
 
-You can use the [editor on GitHub](https://github.com/FENDdeveloperkei/memory-game2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Libraries/Dependencies
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Font Awesome (4.6.1)
+- Google's Coda font
 
-### Markdown
+## Project Requirements
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Game Behavior
 
-```markdown
-Syntax highlighted code block
+**Memory Game Logic:**
+_The game randomly shuffles the cards. A user wins when all cards are matched._
 
-# Header 1
-## Header 2
-### Header 3
+**Congratulations Popup:**
+_When a user wins the game, a modal appears to congratulate the player and ask if they want to play again. It should also tell the user how much time it took to win the game, and what the star rating was._
 
-- Bulleted
-- List
+**Restart Button:**
+_A restart button allows the player to reset the game board, the timer, and the star rating._
 
-1. Numbered
-2. List
+**Star Rating:**
+_The game displays a star rating (from 1 to at least 3) that reflects the player's performance. At the beginning of a game, it should display at least 3 stars. After some number of moves, it should change to a lower star rating. After a few more moves, it should change to a even lower star rating (down to 1)._
 
-**Bold** and _Italic_ and `Code` text
+**Timer:**
+_When the player starts a game, a displayed timer should also start. Once the player wins the game, the timer stops._
 
-[Link](url) and ![Image](src)
-```
+**Move Counter:**
+_Game displays the current number of moves a user has made._
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Interface Design
 
-### Jekyll Themes
+**Styling:**
+_Application uses [CSS](http://udacity.github.io/frontend-nanodegree-styleguide/css.html) to style components for the game._
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FENDdeveloperkei/memory-game2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Usability:**
+_All application components are usable across modern desktop, tablet, and phone browsers.[Udacity's HTML Styling Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)_
 
-### Support or Contact
+### Documentation
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**README:**
+_A README file is included detailing the game and all dependencies._
+
+**Comments:**
+_Comments are present and effectively explain longer code procedure when necessary._
+
+**Code Quality:**
+_Code is formatted with consistent, logical, and easy-to-read formatting as described in the [Udacity JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)._
+
+**Git Requirements:**
+_[Udacity's Git Requirements](https://udacity.github.io/git-styleguide/)_
